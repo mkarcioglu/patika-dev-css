@@ -1,0 +1,26 @@
+header{
+    color :#02475E;
+}
+.mainDiv{
+    text-align: center;
+    min-height: 100vh!important;
+}
+.navList>li{
+    display: inline-block;
+    list-style-type: none;
+}
+.navList{
+    padding-left: 0px;
+}
+.productsList>li{
+    list-style-position: inside;
+}
+.subTitle{
+    color:#F3BDA1;
+}
+footer{
+    position: relative;
+    padding-top: 10rem;
+    align-items: center;
+    text-align: center!important;
+}

@@ -1,0 +1,14 @@
+
+.subTitle{
+    color: #687980;
+}
+img{
+    width: 200px;
+    margin-top: 20px;
+}
+span + span{
+    font-weight: bold;
+}
+.oldPrice{
+    text-decoration: line-through;
+}
