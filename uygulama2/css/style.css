@@ -5,10 +5,10 @@
     margin-right: 16px;
     font-family: arial,sans-serif;
     font-size: 13px;
+    
   }
   
   .headerli a {
-    display: block;
     color: black;
     text-align: center;
     padding: 5px 5px;
@@ -34,6 +34,7 @@
     margin: 0 auto;
     margin-top: -77px;
     width: 582px;
+    border-radius: 24px;
   }
   
   .search-area:hover {
@@ -102,6 +103,8 @@
     text-align: start;
     appearance: textfield;
     cursor: text;
+    border: none;
+    width: 480px;
   }
   
   .googlesearch {
@@ -154,4 +157,17 @@
   
   .footerli a:hover {
     text-decoration: underline;
+  }
+
+  /* My Own Css Styles */
+  #profilePhoto{
+    width: 32px;
+    border-radius: 50%;
+  }
+  .headerli{
+    float: right;
+  }
+  #voiceLogo{
+    width: 24px;
+    padding: 5px 8px 5px 8px;
   }
