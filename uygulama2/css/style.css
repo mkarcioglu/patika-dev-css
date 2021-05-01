@@ -21,7 +21,6 @@
   
   .container {
     text-align: center;
-    margin: 100px;
   }
   
   .search-area {
@@ -30,9 +29,11 @@
     border: 1px solid #dfe1e5;
     box-shadow: none;
     z-index: 3;
+    /* Google Orjinaline benzemesi için 
+    bu kısımda margin değerlerini değiştirdim*/
+    margin: auto;
+    margin-top: 20px;
     height: 44px;
-    margin: 0 auto;
-    margin-top: -77px;
     width: 582px;
     border-radius: 24px;
   }
@@ -137,10 +138,12 @@
     width: 100%;
     margin-left: -8px;
     line-height: 10px;
+    background-color: #f2f2f2;
   }
   
   .footerli {
     float: left;
+    list-style: none;
   }
   
   .footerli a {
@@ -160,6 +163,7 @@
   }
 
   /* My Own Css Styles */
+
   #profilePhoto{
     width: 32px;
     border-radius: 50%;
@@ -170,4 +174,32 @@
   #voiceLogo{
     width: 24px;
     padding: 5px 8px 5px 8px;
+  }
+  .buttons{
+    text-align: center;
+    /* Patika.dev'de söylenmemiş ama 
+    Google'ın kendi sitesinde 
+    butonlar yukarıdan 18 piksel 
+    aşağı konumlanmış*/
+    margin-top: 18px;
+  }
+  .buttons button{
+    border: 1px solid #f2f2f2;
+    border-width: thick;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+    height: 36px;
+  }
+  .buttons button:hover{
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  }
+  /* Google Offered Kısmı Eksikti  */
+  .googleOffered{
+    text-align: center;
+    line-height: 28px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    margin-top: 18px;
   }
